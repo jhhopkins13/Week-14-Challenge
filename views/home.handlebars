@@ -1,0 +1,9 @@
+<h2>Home</h2>
+{{#each posts}}
+<div class="post">
+  <h3><a href="/post/{{this.id}}">{{this.title}}</a></h3>
+  <p>{{this.content}}</p>
+  <p>By {{this.author}}</p>
+  <p>Date: {{this.date}}</p>
+</div>
+{{/each}}
