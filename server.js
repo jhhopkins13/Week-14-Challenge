@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // Session setup
 const sess = {
+  secret: 'Super secret secret', 
   cookie: {},
   resave: false,
   saveUninitialized: true,
